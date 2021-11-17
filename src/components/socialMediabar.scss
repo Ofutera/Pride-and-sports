@@ -1,0 +1,47 @@
+.socialBar {
+  background-color: #052e56;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 45px;
+  padding-right: 80px;
+
+  .socialIconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      .icon {
+        font-size: 18px;
+        margin-left: 15px;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .selected-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    .dropdown {
+      font-size: 15px;
+    }
+
+    img {
+      height: 15px;
+      border-radius: 10px;
+    }
+  }
+}
