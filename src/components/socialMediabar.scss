@@ -2,46 +2,51 @@
   background-color: #052e56;
   color: white;
   display: flex;
+  height: 45px;
   justify-content: right;
   align-items: center;
-  height: 45px;
-  padding-right: 80px;
 
-  .socialIconsContainer {
+
+  .content-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 30px;
+    margin-right: 80px;
 
-    a {
+    .socialIconsContainer {
       display: flex;
       justify-content: center;
       align-items: center;
-      
-      .icon {
-        font-size: 18px;
-        margin-left: 15px;
-        cursor: pointer;
-        color: white;
-        text-decoration: none;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+          font-size: 18px;
+          margin-left: 15px;
+          cursor: pointer;
+          color: white;
+          text-decoration: none;
+        }
       }
     }
-  }
 
-  .selected-language {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .selected-language {
+      margin-left: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
 
-    cursor: pointer;
+      .dropdown {
+        cursor: pointer;
+        font-size: 15px;
+      }
 
-    .dropdown {
-      font-size: 15px;
-    }
-
-    img {
-      height: 15px;
-      border-radius: 10px;
+      img {
+        height: 15px;
+        border-radius: 10px;
+      }
     }
   }
 }

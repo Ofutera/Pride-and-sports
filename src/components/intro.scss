@@ -1,0 +1,55 @@
+.intro {
+  width: 100vw;
+  height: calc(100vh - 145px);
+  background-image: linear-gradient(
+      to right,
+      rgba(159, 104, 78, 0.8),
+      rgba(186, 112, 42, 0.8),
+      rgba(204, 168, 80, 0.8),
+      rgba(221, 210, 181, 0.8),
+      rgba(227, 220, 211, 0.8)
+    ),
+    url("../../src/images/athlete-portrait.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .wrapper-intro {
+    display: flex;
+    align-items: center;
+
+    .vertical-line {
+      width: 10px;
+      height: 225px;
+      background-color: #052e56;
+      margin-left: 115px;
+      border-radius: 10px;
+    }
+
+    .title-container {
+      margin-left: 40px;
+      width: 450px;
+
+      h1 {
+        font-size: 70px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.intro-text-wrapper {
+  padding: 80px 170px;
+
+  h1 {
+    padding: 10px 0;
+    color: #61B57E;
+    font-weight: 600;
+  }
+
+  p {
+      padding: 10px 0;
+      font-weight: 500;
+  }
+}

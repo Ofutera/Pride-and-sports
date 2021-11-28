@@ -1,0 +1,71 @@
+.testimonial-card {
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  margin: 0 30px;
+
+  .tc-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .tc-header {
+      .tc-quote-icon {
+        font-size: 60px;
+        color: #61b57e;
+        transform: rotate(180deg);
+        margin: -18px -10px;
+      }
+    }
+
+    .tc-content-top {
+      .tc-text-container {
+        p {
+          color: grey;
+          font-size: 13px;
+        }
+      }
+    }
+
+    .tc-content-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: gray;
+
+      .athlete-portrait {
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 15px;
+      }
+
+      .athlete-name {
+        font-size: 13px;
+      }
+
+      .athlete-discipline {
+        font-size: 10px;
+      }
+    }
+    .tc-footer {
+      justify-content: center;
+      align-items: center;
+
+      .tc-social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .tc-icon {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
