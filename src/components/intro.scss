@@ -1,5 +1,4 @@
 .intro {
-  width: 100vw;
   height: calc(100vh - 145px);
   background-image: linear-gradient(
       to right,
@@ -9,7 +8,7 @@
       rgba(221, 210, 181, 0.8),
       rgba(227, 220, 211, 0.8)
     ),
-    url("../../src/images/athlete-portrait.jpg");
+    url("../../src/images/runner.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
