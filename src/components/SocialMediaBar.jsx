@@ -1,4 +1,4 @@
-import "./socialMediaBar.scss";
+import "./socialMediaBar";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
