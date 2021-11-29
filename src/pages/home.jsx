@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import Intro from "../components/Intro";
 import Activiteiten from "../components/Activiteiten";
 import OnzeVerhalen from "../components/OnzeVerhalen";
+import Nieuws from "../components/Nieuws";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <Intro />
         <Activiteiten />
         <OnzeVerhalen />
+        <Nieuws />
+        <Footer />
       </div>
     </div>
   );
