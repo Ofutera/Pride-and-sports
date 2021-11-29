@@ -6,7 +6,6 @@ const EventBlock = (props) => {
     <>
       <h2>{props.events[0].monthFull}</h2>
       <div className="event-block">
-        <div className="event-cards-container">
           {props.events.map((event, i) => {
             return (
               <EventCard
@@ -21,7 +20,6 @@ const EventBlock = (props) => {
             );
           })}
         </div>
-      </div>
     </>
   );
 };

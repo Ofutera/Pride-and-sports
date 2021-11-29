@@ -54,6 +54,15 @@ const Activiteiten = () => {
         title: "SDLJKFHASL",
         time: "17:00 - 21:00",
       },
+      {
+        id: 3,
+        dayName: "WED",
+        dayNumber: 27,
+        month: "NOV",
+        monthFull: "november",
+        title: "Kicking Football",
+        time: "19:00 - 23:00",
+      },
     ],
   ];
 
