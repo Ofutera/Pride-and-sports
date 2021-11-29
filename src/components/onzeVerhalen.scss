@@ -1,0 +1,35 @@
+.onze-verhalen {
+  background-image: linear-gradient(
+      to right,
+      rgba(97, 181, 126, 0.8),
+      rgba(0, 0, 0, 0.66)
+    ),
+    url("../images/cycling.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .title {
+    margin-left: 190px;
+    
+    h1 {
+      color: white;
+      font-weight: 600;
+    }
+  }
+
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    .next-arrow {
+      transform: rotate(180deg);
+      color: white;
+      font-size: 70px;
+    }
+  }
+}

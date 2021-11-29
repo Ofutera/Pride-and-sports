@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+
+    .logo {
+        height: 100px;
+    }
+
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span{
+            padding: 0 10px;
+            border-left: 2px solid lightgray;
+
+            &:first-child {
+                border-left: none;
+            }
+            &:last-child {
+                padding-right: 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+
+                &:focus {
+                    color: #61B57E;
+                }
+            }
+        }
+    }
+}
