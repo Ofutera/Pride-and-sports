@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Youtube } from 'reactjs-social-embed';
+// import { Instagram, Facebook, Youtube } from 'reactjs-social-embed';
 import './footer.scss';
 
 
@@ -12,8 +12,8 @@ const Footer = () => {
                     <img src="../images/logo.gif" alt="Pride and Sports logo" />
                     <p className='social-title'>Pride and Sports</p>
                     <p className="socials-day">1 day ago</p>
-                    <Instagram url="https://www.instagram.com/p/CWnzSbloKrT/?utm_source=ig_web_copy_link" />
-                    <Instagram url="https://www.instagram.com/p/CVhdFgrInIE/?utm_source=ig_web_copy_link" />
+                    {/* <Instagram url="https://www.instagram.com/p/CWnzSbloKrT/?utm_source=ig_web_copy_link" />
+                    <Instagram url="https://www.instagram.com/p/CVhdFgrInIE/?utm_source=ig_web_copy_link" /> */}
                     <button className="instagramBtn">volg</button>
                 </div>
             </div>
@@ -24,12 +24,12 @@ const Footer = () => {
                     <p className='social-title'>Pride and Sports</p>
                     <p className="socials-day">1 day ago</p>
                     <button className="facebookBtn">volg</button>
-                    <Facebook type="post" width="100%" height="680px" show_text={true} 
+                    {/* <Facebook type="post" width="100%" height="680px" show_text={true} 
                     url="https://www.facebook.com/prideandsports/posts/430605411807759"
                     />
                     <Facebook type="post" width="100%" height="680px" show_text={true} 
                     url="https://www.facebook.com/prideandsports/posts/429978715203762"
-                    />
+                    /> */}
                 </div>
             </div>
             <div className="youtube">
@@ -39,7 +39,7 @@ const Footer = () => {
                     <p className='social-title'>Pride and Sports</p>
                     <p className="socials-day">1 day ago</p>
                     <button className="youtubeBtn">subscribe</button>
-                    <Youtube width="100%" parentClass="p-container" iframeClass="v-container" id="gWfcDFiSizg" />
+                    {/* <Youtube width="100%" parentClass="p-container" iframeClass="v-container" id="gWfcDFiSizg" /> */}
                 </div> 
             </div>
             <div className="contact">

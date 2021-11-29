@@ -1,7 +1,7 @@
 import React from 'react';
-import './nieuws';
+import './nieuws.scss';
 import PridePark from '../images/PridePark.jpg';
-import Rocycle from '../images/Rocycle';
+import Rocycle from '../images/Rocycle.jpg';
 import Flaggay from '../images/flaggay.jpg';
 import Ondertekenen from '../images/OndertekeninVeiligheidsalliantie.jpg';
 import Football from '../images/Football.jpg';
