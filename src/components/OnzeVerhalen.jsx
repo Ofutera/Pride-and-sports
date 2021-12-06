@@ -1,6 +1,7 @@
 import "./onzeVerhalen.scss";
 import TestimonialCard from "./UI/TestimonialCard";
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import Carousel from "react-bootstrap/Carousel";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const testimonialData = [
   {
@@ -21,12 +22,12 @@ const testimonialData = [
     name: "Joey Tribbiani",
     discipline: "Boxer",
   },
-  // {
-  //   id: 4,
-  //   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio diam, venenatis ac tincidunt quis, eleifend id mi. Proinmollis urna vitae turpis interdum scelerisque.",
-  //   name: "Phoebe Buffay",
-  //   discipline: "Rugby",
-  // },
+  {
+    id: 4,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio diam, venenatis ac tincidunt quis, eleifend id mi. Proinmollis urna vitae turpis interdum scelerisque.",
+    name: "Phoebe Buffay",
+    discipline: "Rugby",
+  },
 ];
 
 const OnzeVerhalen = () => {
@@ -36,21 +37,24 @@ const OnzeVerhalen = () => {
         <h1>onze verhalen</h1>
       </div>
       <div className="carousel">
-        <ArrowBackIosNewIcon className="arrow previous" />
-
+        <Carousel>
           {testimonialData.map((t) => {
             return (
-              <TestimonialCard
-                id={t.id}
-                text={t.text}
-                image={t.image}
-                name={t.name}
-                discipline={t.discipline}
-              />
+              <Carousel.Item>
+              <div className='card-wrapper'>
+                <TestimonialCard
+                  id={t.id}
+                  text={t.text}
+                  image={t.image}
+                  name={t.name}
+                  discipline={t.discipline}
+                />
+              </div>
+                
+              </Carousel.Item>
             );
           })}
-
-        <ArrowBackIosNewIcon className="arrow next" />
+        </Carousel>
       </div>
     </div>
   );
