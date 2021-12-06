@@ -5,6 +5,7 @@ import Instapost3 from '../images/post3.png';
 import Instapost4 from '../images/post4.png';
 import Instapost5 from '../images/post5.png';
 import LogoSmall from '../images/logosmall.png';
+import Fbpost from '../images/fbpost.png';
 
 
 const Footer = () => {
@@ -36,10 +37,12 @@ const Footer = () => {
                             <img src={LogoSmall} alt="Pride and Sports logo" />
                         </div>                    
                     <p className='social-title'>Pride and Sports</p>
-                    <p className="socials-day">1 day ago</p>
+                        <p className="socials-day">1 day ago</p>
                         <button className="facebookBtn">volg</button>
-                <div class="fb-post" data-href="https://www.facebook.com/prideandsports/posts/429978715203762" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/prideandsports/posts/429978715203762" class="fb-xfbml-parse-ignore">Geplaatst door <a href="https://www.facebook.com/prideandsports/">Pride and Sports</a> op&nbsp;<a href="https://www.facebook.com/prideandsports/posts/429978715203762">Dinsdag 23 november 2021</a></blockquote></div>
+                        <div className="fb-post">
+                            <img src={Fbpost} alt="last facebook post"/>
                     <p>Tijdens de live stream van &#064;centrumveiligesportnl was Laura van Beckhoven<br/> een van de drie ervaringsdeskundigen, naast...</p>
+                    </div>
                     </div>
             </div>
             <div className="youtube">

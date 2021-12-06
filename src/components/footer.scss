@@ -87,8 +87,10 @@
             background-color: #51B3DD;
         }
         .fb-post{
-            width: 250px;
-            height: 300px;
+            img{
+                width: 250px;
+                height: 2560px;
+            }
             p{
                 color:white;
                 transform: translate(100px, 100px);
