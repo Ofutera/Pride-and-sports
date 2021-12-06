@@ -1,12 +1,125 @@
 .footer {
     background-color: #052E56;
+    height: auto;
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 400px 400px;
     h2{
-        font-size: 30px;
-        line-height: 36px;
-        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        margin-left: 75px;
+        margin-top: 10px;
     }
-    .instagram-container, .facebook-container, .youtube-container{
-        background-color: #191970;
+    .instagram{
+        max-width: 300px;
+    }
+    .instagram-container{
+        background-color: #00008b;
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: 100px 250px 100px;
+        padding-left: 25px;
+        padding-top: 10px;
+        .logo{
+            display: grid;
+            grid-template-columns: 60px 150px;
+            grid-template-rows: 80px 80px;
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+        }
+        .social-title{
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            padding-left: 10px;
+        }
+        .socials-day{
+            color: white;
+            font-size: 12px;
+            font-weight: lighter;
+            transform: translate(70px, -62px);
+        }
+        .posts{
+            display: grid;
+            grid-template-columns: 120px 120px;
+            grid-template-rows: 120px 120px;
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .instagramBtn{
+            color: white;
+            background-color: #51B3DD;
+            width: 60px;
+            height: 30px;
+            border-radius: 25%;
+            margin-left: 75px;
+            text-align: center;
+        }
+    }
+    .facebook-container{
+        background-color: #00008b;
+        .logo{
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+        }
+        .social-title{
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .socials-day{
+            color: white;
+            font-size: 12px;
+            font-weight: lighter;
+        }
+        .facebookBtn{
+            color: white;
+            background-color: #51B3DD;
+        }
+        .fb-post{
+            img{
+                width: 250px;
+                height: 2560px;
+            }
+            p{
+                color:white;
+                transform: translate(100px, 100px);
+            }
+        }
+    }
+    .youtube-container{
+        background-color: #00008b;
+        .logo{
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+        }
+        .social-title{
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .socials-day{
+            color: white;
+            font-size: 12px;
+            font-weight: lighter;
+        }
+        .youtubeBtn{
+            color: white;
+            background-color: #61B57E;
+        }
     }
     .contact{
         address{

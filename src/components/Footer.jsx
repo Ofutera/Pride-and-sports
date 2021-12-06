@@ -1,45 +1,61 @@
 import React from 'react';
-// import { Instagram, Facebook, Youtube } from 'reactjs-social-embed';
 import './footer.scss';
+import Instapost2 from '../images/post2.png';
+import Instapost3 from '../images/post3.png';
+import Instapost4 from '../images/post4.png';
+import Instapost5 from '../images/post5.png';
+import LogoSmall from '../images/logosmall.png';
+import Fbpost from '../images/fbpost.png';
 
 
 const Footer = () => {
     return (
         <div className="footer">
+            <div className="footer-container">
             <div className="instagram">
                 <h2>instagram</h2>
-                <div className="instagram-container">
-                    <img src="../images/logo.gif" alt="Pride and Sports logo" />
-                    <p className='social-title'>Pride and Sports</p>
-                    <p className="socials-day">1 day ago</p>
-                    {/* <Instagram url="https://www.instagram.com/p/CWnzSbloKrT/?utm_source=ig_web_copy_link" />
-                    <Instagram url="https://www.instagram.com/p/CVhdFgrInIE/?utm_source=ig_web_copy_link" /> */}
+                    <div className="instagram-container">
+                        <div className="logo">
+                            <img src={ LogoSmall} alt="Pride and Sports logo" />                     
+                            <p className='social-title'>Pride and Sports</p>
+                            <p className="socials-day">1 day ago</p>
+                        </div>                       
+                        <div className="posts">
+                            <img src={Instapost2} alt="post instagram"/>
+                            <img src={Instapost3} alt="post instagram"/>
+                            <img src={Instapost4} alt="post instagram"/>
+                            <img src={Instapost5} alt="post instagram"/>
+                        </div>
+                        
                     <button className="instagramBtn">volg</button>
                 </div>
             </div>
             <div className="facebook">
                 <h2>facebook</h2>
-                <div className="facebook-container">
-                    <img src="../images/logo.gif" alt="Pride and Sports logo" />
+                    <div className="facebook-container">
+                        <div className="logo">
+                            <img src={LogoSmall} alt="Pride and Sports logo" />
+                        </div>                    
                     <p className='social-title'>Pride and Sports</p>
-                    <p className="socials-day">1 day ago</p>
-                    <button className="facebookBtn">volg</button>
-                    {/* <Facebook type="post" width="100%" height="680px" show_text={true} 
-                    url="https://www.facebook.com/prideandsports/posts/430605411807759"
-                    />
-                    <Facebook type="post" width="100%" height="680px" show_text={true} 
-                    url="https://www.facebook.com/prideandsports/posts/429978715203762"
-                    /> */}
-                </div>
+                        <p className="socials-day">1 day ago</p>
+                        <button className="facebookBtn">volg</button>
+                        <div className="fb-post">
+                            <img src={Fbpost} alt="last facebook post"/>
+                    <p>Tijdens de live stream van &#064;centrumveiligesportnl was Laura van Beckhoven<br/> een van de drie ervaringsdeskundigen, naast...</p>
+                    </div>
+                    </div>
             </div>
             <div className="youtube">
                 <h2>youtube</h2>
-                <div className="youtube-container">
-                    <img src="../images/logo.gif" alt="Pride and Sports logo" />
+                    <div className="youtube-container">
+                        <div className="logo">
+                            <img src={LogoSmall} alt="Pride and Sports logo" />
+                        </div>
+                    
                     <p className='social-title'>Pride and Sports</p>
                     <p className="socials-day">1 day ago</p>
                     <button className="youtubeBtn">subscribe</button>
-                    {/* <Youtube width="100%" parentClass="p-container" iframeClass="v-container" id="gWfcDFiSizg" /> */}
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lIaGEB4WfRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> 
             </div>
             <div className="contact">
@@ -66,6 +82,7 @@ const Footer = () => {
                             <input type="submit" value="abonneer"/>               
                         </form>
                 </div>
+            </div>
         </div>
     );
 };
