@@ -35,10 +35,10 @@ const Footer = () => {
                     <div className="facebook-container">
                         <div className="logo">
                             <img src={LogoSmall} alt="Pride and Sports logo" />
-                        </div>                    
-                    <p className='social-title'>Pride and Sports</p>
+                            <p className='social-title'>Pride and Sports</p>
                         <p className="socials-day">1 day ago</p>
                         <button className="facebookBtn">volg</button>
+                        </div>
                         <div className="fb-post">
                             <img src={Fbpost} alt="last facebook post"/>
                     <p>Tijdens de live stream van &#064;centrumveiligesportnl was Laura van Beckhoven<br/> een van de drie ervaringsdeskundigen, naast...</p>
@@ -50,12 +50,11 @@ const Footer = () => {
                     <div className="youtube-container">
                         <div className="logo">
                             <img src={LogoSmall} alt="Pride and Sports logo" />
+                            <p className='social-title'>Pride and Sports</p>
+                            <p className="socials-day">1 day ago</p>
+                            <button className="youtubeBtn">subscribe</button>
                         </div>
-                    
-                    <p className='social-title'>Pride and Sports</p>
-                    <p className="socials-day">1 day ago</p>
-                    <button className="youtubeBtn">subscribe</button>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lIaGEB4WfRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="250" height="250" src="https://www.youtube.com/embed/lIaGEB4WfRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> 
             </div>
             <div className="contact">
@@ -72,15 +71,13 @@ const Footer = () => {
                     NL51SNSB0948383178 <br/>     
                 </p>
                 
-            </div>
-                <div className="nieuwsbrief">
-                    <p>nieuwsbrief</p>
+                    <h2>nieuwsbrief</h2>
                         <form action="">
                             <input type="text" id="fname" name="fname" value="voornaam"/><br/>
                             <input type="text" id="lname" name="lname" value="achternaam"/><br/>
-                            <input type="email" id="email" name="email" value="e-mailadres"/><br/>
-                            <input type="submit" value="abonneer"/>               
-                        </form>
+                            <input type="email" id="email" name="email" value="e-mailadres"/><br/>               
+                    </form>
+                    <button className="nieuwsBtn">abonneer</button>
                 </div>
             </div>
         </div>

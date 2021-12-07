@@ -1,16 +1,15 @@
 .footer {
     background-color: #052E56;
-    height: auto;
     display: grid;
-    grid-template-columns: 350px 350px 350px 350px;
-    grid-template-rows: 400px 400px;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 700px;
     h2{
         color: white;
         font-size: 20px;
         font-weight: bolder;
         margin-bottom: 20px;
         margin-left: 75px;
-        margin-top: 10px;
+        margin-top: 50px;
     }
     .instagram{
         max-width: 300px;
@@ -18,7 +17,7 @@
     .instagram-container{
         background-color: #00008b;
         display: grid;
-        grid-template-columns: 250px;
+        grid-template-columns: 300px;
         grid-template-rows: 100px 250px 100px;
         padding-left: 25px;
         padding-top: 10px;
@@ -63,9 +62,18 @@
             text-align: center;
         }
     }
+    .facebook{
+        max-width: 300px;
+        transform: translate(350px, -555px);
+    }
     .facebook-container{
         background-color: #00008b;
+        padding-left: 25px;
+        padding-top: 10px;
         .logo{
+            display: grid;
+            grid-template-columns: 60px 150px;
+            grid-template-rows: 80px;
             img{
                 width: 50px;
                 height: 50px;
@@ -76,15 +84,22 @@
             color: white;
             font-weight: bold;
             font-size: 15px;
+            padding-left: 10px;
         }
         .socials-day{
             color: white;
             font-size: 12px;
             font-weight: lighter;
+            transform: translate(70px, -62px);
         }
         .facebookBtn{
             color: white;
             background-color: #51B3DD;
+            border-radius: 12px;
+            width: 90px;
+            height: 30px;
+            border-radius: 12px;
+            transform: translate(0px, -40px);
         }
         .fb-post{
             img{
@@ -93,39 +108,80 @@
             }
             p{
                 color:white;
-                transform: translate(100px, 100px);
+                font-size: 12px;
+                padding-bottom: 10px;
             }
         }
     }
+    .youtube{
+        max-width: 300px;
+        transform: translate(700px, -1122px);
+    }
     .youtube-container{
         background-color: #00008b;
+        padding-left: 25px;
+        padding-top: 10px;
         .logo{
+            display: grid;
+            grid-template-columns: 60px 150px;
+            grid-template-rows: 80px;
             img{
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
             }
-        }
         .social-title{
             color: white;
             font-weight: bold;
             font-size: 15px;
+            padding-left: 10px;
         }
         .socials-day{
             color: white;
             font-size: 12px;
             font-weight: lighter;
+            transform: translate(70px, -62px);
         }
         .youtubeBtn{
             color: white;
             background-color: #61B57E;
+            width: 90px;
+            height: 30px;
+            border-radius: 12px;
+            transform: translate(0px, -40px);
         }
     }
+    iframe{
+        padding-bottom: 10px;
+    }
+    }
     .contact{
+        max-width: 300px;
+        transform: translate(1050px, -1600px);
+        p{
+            color: white;
+            font-size: 15px;
+        }
         address{
+            color: white;
             a{
                 color:#61B57E;
             }
+        }
+        input{
+            background-color: #00008b;
+            color: white;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .nieuwsBtn{
+            background-color: #61B57E;
+            color: white;
+            border-radius: 12px;
+            width: 120px;
+            height: 30px;
+            margin-top: 5px;
         }
     }
 }
