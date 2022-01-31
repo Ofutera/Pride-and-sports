@@ -1,0 +1,45 @@
+.carousel-section {
+  height: 100vh;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .carousel-container {
+    width: auto;
+    min-width: 1300px;
+    max-width: 1300px;
+    height: 800px;
+    // background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .carousel-cards{
+        // background-color: lightseagreen;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrow {
+        width: 50px;
+        position: absolute;
+        cursor: pointer;
+        z-index: 3;
+
+        &.left {
+            left: 30px;
+            transform: rotate(180deg);
+        }
+
+        &.right {
+            right: 30px;
+        }
+    }
+
+
+  }
+}

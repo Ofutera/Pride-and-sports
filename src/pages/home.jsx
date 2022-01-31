@@ -6,6 +6,9 @@ import Activiteiten from "../components/Activiteiten";
 import OnzeVerhalen from "../components/OnzeVerhalen";
 import Nieuws from "../components/Nieuws";
 import Footer from "../components/Footer";
+import Carousel from "../components/Carousel";
+import Form from "../components/Form";
+
 
 const Home = () => {
   return (
@@ -18,6 +21,8 @@ const Home = () => {
       <div className="sections">
         <Intro />
         <Activiteiten />
+        <Form />
+        <Carousel />
         <OnzeVerhalen />
         <Nieuws />
         <Footer />
